@@ -8,7 +8,7 @@ app = Flask(__name__)
 email_handler = EmailHandler()
 voice_handler = VoiceHandler()
 image_captioner = ImageCaptioner()
-
+ 
 @app.route('/')
 def index():
     return render_template('index.html')
